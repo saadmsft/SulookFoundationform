@@ -24,8 +24,10 @@ def main():
         salary = st.number_input("Salary (Optional)", min_value=0)
 
         st.header("Family")
-        father_info = st.text_input("Father’s Education & Profession")
-        mother_info = st.text_input("Mother’s Education & Profession")
+        father_info = st.text_input("Father’s Education ")
+        mother_info = st.text_input("Mother’s Education ")
+        father_profession = st.text_input("Father's Profession")
+        mother_profession = st.text_input("Mother’s Profession")
         brothers = st.number_input("Brothers", min_value=0)
         sisters = st.number_input("Sisters", min_value=0)
 
