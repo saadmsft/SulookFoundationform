@@ -2,7 +2,7 @@ import streamlit as st
 
 def main():
     st.image("https://sulookfoundationtst.blob.core.windows.net/sulook/My new creation.png", width=150)  
-    st.title("Sulook Matrimonial Services | Pakistan")
+    st.title("Sulook Matrimonial | Pakistan")
     st.markdown("Please fill the form below to register your profile with Sulook Matrimonial Services. We will contact you shortly after reviewing your profile.")
 
     with st.form(key='my_form'):
